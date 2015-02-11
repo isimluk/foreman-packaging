@@ -9,7 +9,7 @@ Release:	1%{?dist}
 Summary:	Puppet module to configure foreman_scap_client
 License:	GPLv2
 URL:		https://github.com/OpenSCAP/%{name}
-Source0:	https://forgeapi.puppetlabs.com/v3/files/%{puppet_full_name}-%{version}.tar.gz
+Source0:	https://forgeapi.puppetlabs.com/v3/files/isimluk-foreman_scap_client-0.3.3.tar.gz
 BuildArch:	noarch
 Requires:	puppet >= 2.7.0
 Requires:	puppetlabs-stdlib >= 4.2.0
