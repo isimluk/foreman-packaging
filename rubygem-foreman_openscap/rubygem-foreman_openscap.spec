@@ -102,7 +102,6 @@ mkdir -p %{buildroot}%{foreman_bundlerd_dir}
 %files doc
 %doc %{gem_instdir}/LICENSE
 %doc %{gem_instdir}/README.md
-%{gem_instdir}/Rakefile
 
 %posttrans
 # We need to run the db:migrate (because of SCAPtimony) after the install transaction
